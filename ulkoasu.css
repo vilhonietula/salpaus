@@ -15,7 +15,6 @@ a:active{
 }
 div{background-color:yellow
 }
-.otsikko{color:black;text-align:center;width:30%;margin:0 auto} 
-.alaotsikko{background-color:blue;color:black;text-align:center;width:30%;margin:0 auto}
-.alinotsikko{background-color:red;color:black;text-align:center;width:30%;margin:0 auto}
-
+.otsikko{color:black;text-align:center;} 
+.alaotsikko{background-color:blue;color:black;text-align:center;}
+#alinotsikko{background-color:red;color:black;text-align:center;width:30%;margin:0 auto}

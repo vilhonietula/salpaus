@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  color: whitesmoke
+}
+
+a{
+  text-decoration: none;
+  color: yellow;
+}
+a:hover{
+  color:yellow
+}
+a:active{
+  color: black
+}
+div{background-color:yellow
+}
+.otsikko{color:black;text-align:center;width:30%;margin:0 auto} 
+.alaotsikko{background-color:blue;color:black;text-align:center;width:30%;margin:0 auto}
+.alinotsikko{background-color:red;color:black;text-align:center;width:30%;margin:0 auto}
+

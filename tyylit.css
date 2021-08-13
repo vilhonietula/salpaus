@@ -1,0 +1,17 @@
+body{
+  background-color:blue;
+  margin:0px;
+}
+div{
+  background-color:violet
+}
+.tvt{
+  text-align:center;height:20%;font-size:350%;font-style:normal;color:purple;margin-bottom:30px;
+}
+.merkinta{
+  text-align:2;
+  height:50%;color:purple;
+  font-size:150%;
+  width:70%;
+  margin:0 auto;
+  }

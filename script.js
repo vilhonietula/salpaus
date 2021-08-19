@@ -2,11 +2,23 @@ function laskutehtava(ekaArvo, tokaArvo){
   return ekaArvo + tokaArvo;
 }
 function pvmfin(vuosi, kk, PV){
-  return PV+"."+kk+"."+vuosi;
-}
-
-
+  
+ 
+  if (kk==03 || kk==04 || kk==05){
+    return "kevät "+PV+"."+kk+"."+vuosi;
+} 
+  else if(kk==06 || kk==07 || kk==08){
+    return "kesä "+PV+"."+kk+"."+vuosi; 
+  }
+  else if(kk==09 || kk==10 || kk==11){
+    return "syksy "+PV+"."+kk+"."+vuosi;
+  }
+  else{
+    return "syksy "+PV+"."+kk+"."+vuosi;
+  }
+}  
  console.log("täällä ollaan!");
+
 
  let ika = 44; // numerot kirjoitetaan ilman lainausmerkkejä
  ika = ika + 1;
@@ -48,7 +60,10 @@ else{
 console.log(laskutehtava(76786276, 982784728));
 
 let pvm = "2021/08/18";
-console.log(pvmfin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+for(let i=1; i<=15; i++){
+  
+  console.log(i + " " + pvmfin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+}
 
 /*
 monen

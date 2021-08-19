@@ -1,7 +1,9 @@
 function laskutehtava(ekaArvo, tokaArvo){
   return ekaArvo + tokaArvo;
 }
-
+function pvmfin(vuosi, kk, PV){
+  return PV+"."+kk+"."+vuosi;
+}
 
 
  console.log("täällä ollaan!");
@@ -45,8 +47,8 @@ else{
 
 console.log(laskutehtava(76786276, 982784728));
 
-let pvm = "2021/08/18"
-console.log 
+let pvm = "2021/08/18";
+console.log(pvmfin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
 
 /*
 monen

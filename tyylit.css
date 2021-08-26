@@ -6,12 +6,43 @@ div{
   background-color:violet
 }
 .tvt{
-  text-align:center;height:20%;font-size:350%;font-style:normal;color:purple;margin-bottom:30px;
+  text-align:center;
+  height:20%;
+  font-size:350%;
+  font-style:normal;
+  color:purple;
+  margin-bottom:30px;
 }
 .merkinta{
   text-align:2;
-  height:50%;color:purple;
-  font-size:150%;
+  height:30%;color:purple;
+  font-size:175%;
   width:70%;
   margin:0 auto;
-  }
+  margin-bottom:30px;
+
+}
+input[type=text], #tieto {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.lisaanappi{
+  width:100%;
+  background-color:black;
+  color:white;
+  height:15%;
+  font-size:39%;
+ }
+ .suoritettavat{
+  margin:50px;
+  width:70%;
+  margin:0 auto;
+  color:purple;
+  height:20%;
+  font-size:200%;
+ }

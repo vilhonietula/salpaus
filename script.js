@@ -64,9 +64,37 @@ for(let i=1; i<=15; i++){
   
   console.log(i + " " + pvmfin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
 }
-
 /*
 monen
 rivin
 kommennti
 */
+
+//console.log(document:querySelector('#kentta').type);
+//console.log(document:querySelector('.lisaanappi').value);
+
+document.querySelector('.lisaanappi').addEventListener('click',e =>{
+  e.preventDefault();
+  console.log(document.querySelector('#kentta').value);
+})
+document.querySelector('.ilmoitus').innerHTML = "kentän sisältö on" + document.querySelector('#kentta').value;
+settimeout(() =>document.querySelector('.ilmoitus').innerHTML='', 3000);
+
+document.querySelector('.merkinta').addEventListener('click', e =>{
+  e.preventDefault();
+  console.log("nappi toimii!");
+  if(document.querySelector('#teht_a').checked){
+    alert('tehtävä on merkitty');
+  }
+  else{
+    alert('tehtävä A e ole merkitty');
+  }
+
+
+if(document.querySelector('#teht_b').checked){
+  alert('tehtävä B on merkitty')
+}
+else{
+  alert('tehtävä B ei ole merkitty');
+}
+});

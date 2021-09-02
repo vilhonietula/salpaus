@@ -4,7 +4,7 @@
 
 document.querySelector('.lisaanappi').addEventListener('click',e =>{
   e.preventDefault();
-  if(document.querySelector("#nimi").value == "")
+  if(document.querySelector("#nimi").value == "" || document.querySelector("#tieto").value == "")
 {
   alert("täytä kaikki kentät")
 }
